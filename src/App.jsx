@@ -6,6 +6,7 @@ import DevineNombre from './pages/DevineNombre';
 import Compteur from './pages/Compteur';
 import Citations from './pages/Citations';
 import Convertisseur from './pages/Convertisseur';
+import CompteurBis from './pages/CompteurBis';
 
 function App() {
   // variable,setVariable
@@ -35,7 +36,8 @@ function App() {
       {/* <DevineNombre /> */}
       {/* <Compteur /> */}
       {/* <Citations /> */}
-      <Convertisseur />
+      {/* <Convertisseur /> */}
+      <CompteurBis/>
     </>
   )
 }
