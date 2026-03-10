@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    gap: 10px;
+}
+
+#results{
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    text-align: end;
+    padding-right: 5px;
+    box-shadow: 0px 0px 10px;
+}
+
+.ligne{
+    width: 20%;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons{
+    flex-basis: 25%;
+    font-size: 2rem;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 20px;
+}
+
+#delete{
+    flex-grow: 3;
+}
+
+.red{
+    background-color: darkred;
+}
+
+.operators{
+    background-color: darkorange;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+@media(max-width : 992px) {
+    #results, .ligne{
+        width: 70%;
+    }
+}
+
+@media(max-width : 768px) {
+    #results, .ligne{
+        width: 80%;
+    }
+}
