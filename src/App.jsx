@@ -8,6 +8,8 @@ import Citations from './pages/Citations';
 import Convertisseur from './pages/Convertisseur';
 import CompteurBis from './pages/CompteurBis';
 import ToDoList from './pages/ToDoList';
+import UserCard from './pages/UserCard';
+import Buttons from './pages/Buttons';
 
 function App() {
   // variable,setVariable
@@ -39,7 +41,9 @@ function App() {
       {/* <Citations /> */}
       {/* <Convertisseur /> */}
       {/* <CompteurBis/> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+      {/* <UserCard /> */}
+      <Buttons />
     </>
   )
 }

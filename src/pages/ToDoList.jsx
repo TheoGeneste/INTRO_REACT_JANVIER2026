@@ -75,6 +75,7 @@ const ToDoList = () => {
 
 
         {/* tasks.map pour parcourir les taches */}
+        
         {tasks.map((element) => {
             // element = {id: , title: , done :}
             {/* afficher le title et la checkbox si dessous */ }
@@ -99,7 +100,6 @@ const ToDoList = () => {
                     <button onClick={() => { handleDelete(element) }}>Delete</button>
                 </li>
             }
-
 
         })}
     </>;
