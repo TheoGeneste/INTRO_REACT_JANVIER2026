@@ -7,6 +7,7 @@ import Compteur from './pages/Compteur';
 import Citations from './pages/Citations';
 import Convertisseur from './pages/Convertisseur';
 import CompteurBis from './pages/CompteurBis';
+import ToDoList from './pages/ToDoList';
 
 function App() {
   // variable,setVariable
@@ -37,7 +38,8 @@ function App() {
       {/* <Compteur /> */}
       {/* <Citations /> */}
       {/* <Convertisseur /> */}
-      <CompteurBis/>
+      {/* <CompteurBis/> */}
+      <ToDoList />
     </>
   )
 }
