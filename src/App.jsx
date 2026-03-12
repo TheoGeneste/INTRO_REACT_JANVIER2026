@@ -10,6 +10,7 @@ import CompteurBis from './pages/CompteurBis';
 import ToDoList from './pages/ToDoList';
 import UserCard from './pages/UserCard';
 import Buttons from './pages/Buttons';
+import Gallery from './pages/Gallery';
 
 function App() {
   // variable,setVariable
@@ -43,7 +44,8 @@ function App() {
       {/* <CompteurBis/> */}
       {/* <ToDoList /> */}
       {/* <UserCard /> */}
-      <Buttons />
+      {/* <Buttons /> */}
+      <Gallery />
     </>
   )
 }
