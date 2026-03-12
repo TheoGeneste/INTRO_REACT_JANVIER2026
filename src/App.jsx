@@ -11,6 +11,7 @@ import ToDoList from './pages/ToDoList';
 import UserCard from './pages/UserCard';
 import Buttons from './pages/Buttons';
 import Gallery from './pages/Gallery';
+import Timer from './pages/Timer';
 
 function App() {
   // variable,setVariable
@@ -45,7 +46,8 @@ function App() {
       {/* <ToDoList /> */}
       {/* <UserCard /> */}
       {/* <Buttons /> */}
-      <Gallery />
+      {/* <Gallery /> */}
+      <Timer />
     </>
   )
 }
