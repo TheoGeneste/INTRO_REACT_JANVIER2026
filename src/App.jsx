@@ -12,6 +12,8 @@ import UserCard from './pages/UserCard';
 import Buttons from './pages/Buttons';
 import Gallery from './pages/Gallery';
 import Timer from './pages/Timer';
+import Formulaire from './pages/Formulaire';
+import FormulaireWithObject from './pages/FormulaireWithObject';
 
 function App() {
   // variable,setVariable
@@ -47,7 +49,8 @@ function App() {
       {/* <UserCard /> */}
       {/* <Buttons /> */}
       {/* <Gallery /> */}
-      <Timer />
+      {/* <Timer /> */}
+      <FormulaireWithObject />
     </>
   )
 }
